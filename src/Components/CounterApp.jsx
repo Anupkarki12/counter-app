@@ -24,7 +24,7 @@ const CounterApp = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div className="flex items-center justify-center min-h-[80vh] bg-gray-100 p-4">
       <div className="bg-white rounded-2xl shadow-xl p-8 text-center w-full max-w-sm">
         <h1 className="text-2xl font-bold mb-4">Counter App</h1>
         <div className="text-4xl font-semibold text-blue-600 mb-4">{count}</div>
