@@ -1,4 +1,5 @@
 import CounterApp from "./Components/CounterApp"
+import Datafetch from "./Components/Datafetch"
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <CounterApp/>
+     <Datafetch/>
     </>
   )
 }
